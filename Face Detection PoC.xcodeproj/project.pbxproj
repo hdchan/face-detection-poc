@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		727FBA5C1C18B31B0085789A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727FBA5B1C18B31B0085789A /* AppDelegate.swift */; };
+		727FBA5E1C18B31B0085789A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727FBA5D1C18B31B0085789A /* ViewController.swift */; };
+		727FBA611C18B31B0085789A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727FBA5F1C18B31B0085789A /* Main.storyboard */; };
+		727FBA631C18B31B0085789A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727FBA621C18B31B0085789A /* Assets.xcassets */; };
+		727FBA661C18B31B0085789A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727FBA641C18B31B0085789A /* LaunchScreen.storyboard */; };
+		9DA64EFB1C45647300266905 /* FacePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA64EFA1C45647300266905 /* FacePhoto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		727FBA581C18B31B0085789A /* Face Detection PoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face Detection PoC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		727FBA5B1C18B31B0085789A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		727FBA5D1C18B31B0085789A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		727FBA601C18B31B0085789A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		727FBA621C18B31B0085789A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		727FBA651C18B31B0085789A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		727FBA671C18B31B0085789A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA64EFA1C45647300266905 /* FacePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacePhoto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		727FBA551C18B31B0085789A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		727FBA4F1C18B31B0085789A = {
+			isa = PBXGroup;
+			children = (
+				727FBA5A1C18B31B0085789A /* Face Detection PoC */,
+				727FBA591C18B31B0085789A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		727FBA591C18B31B0085789A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				727FBA581C18B31B0085789A /* Face Detection PoC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		727FBA5A1C18B31B0085789A /* Face Detection PoC */ = {
+			isa = PBXGroup;
+			children = (
+				727FBA5B1C18B31B0085789A /* AppDelegate.swift */,
+				727FBA5D1C18B31B0085789A /* ViewController.swift */,
+				9DA64EFA1C45647300266905 /* FacePhoto.swift */,
+				727FBA5F1C18B31B0085789A /* Main.storyboard */,
+				727FBA621C18B31B0085789A /* Assets.xcassets */,
+				727FBA641C18B31B0085789A /* LaunchScreen.storyboard */,
+				727FBA671C18B31B0085789A /* Info.plist */,
+			);
+			path = "Face Detection PoC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		727FBA571C18B31B0085789A /* Face Detection PoC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727FBA6A1C18B31B0085789A /* Build configuration list for PBXNativeTarget "Face Detection PoC" */;
+			buildPhases = (
+				727FBA541C18B31B0085789A /* Sources */,
+				727FBA551C18B31B0085789A /* Frameworks */,
+				727FBA561C18B31B0085789A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Face Detection PoC";
+			productName = "Face Detection PoC";
+			productReference = 727FBA581C18B31B0085789A /* Face Detection PoC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		727FBA501C18B31B0085789A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Henry Chan";
+				TargetAttributes = {
+					727FBA571C18B31B0085789A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 727FBA531C18B31B0085789A /* Build configuration list for PBXProject "Face Detection PoC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 727FBA4F1C18B31B0085789A;
+			productRefGroup = 727FBA591C18B31B0085789A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				727FBA571C18B31B0085789A /* Face Detection PoC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		727FBA561C18B31B0085789A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727FBA661C18B31B0085789A /* LaunchScreen.storyboard in Resources */,
+				727FBA631C18B31B0085789A /* Assets.xcassets in Resources */,
+				727FBA611C18B31B0085789A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		727FBA541C18B31B0085789A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA64EFB1C45647300266905 /* FacePhoto.swift in Sources */,
+				727FBA5E1C18B31B0085789A /* ViewController.swift in Sources */,
+				727FBA5C1C18B31B0085789A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		727FBA5F1C18B31B0085789A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				727FBA601C18B31B0085789A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		727FBA641C18B31B0085789A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				727FBA651C18B31B0085789A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		727FBA681C18B31B0085789A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		727FBA691C18B31B0085789A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		727FBA6B1C18B31B0085789A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Face Detection PoC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henrychan.Face-Detection-PoC";
+				PRODUCT_NAME = "Face Detection PoC";
+			};
+			name = Debug;
+		};
+		727FBA6C1C18B31B0085789A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Face Detection PoC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henrychan.Face-Detection-PoC";
+				PRODUCT_NAME = "Face Detection PoC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		727FBA531C18B31B0085789A /* Build configuration list for PBXProject "Face Detection PoC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727FBA681C18B31B0085789A /* Debug */,
+				727FBA691C18B31B0085789A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727FBA6A1C18B31B0085789A /* Build configuration list for PBXNativeTarget "Face Detection PoC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727FBA6B1C18B31B0085789A /* Debug */,
+				727FBA6C1C18B31B0085789A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 727FBA501C18B31B0085789A /* Project object */;
+}
